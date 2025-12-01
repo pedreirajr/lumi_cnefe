@@ -1,6 +1,6 @@
 # Measuring land-use mix with address-level census data
 
-R code to read Brazilian CNEFE municipal files and compute mixed land use indicators from address records on H3 hexagonal grids.
+R code to read Brazilian CNEFE municipal files and compute land-use mix indicators from address records on H3 hexagonal grids.
 
 This repository is a regular R project with scripts you can source and run in your own workflow.
 
