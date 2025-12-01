@@ -12,7 +12,7 @@ This project provides a reproducible workflow to:
 
 -   build an index of download URLs for the 2022 CNEFE municipal files
 -   read raw CNEFE CSV data for a given municipality
--   compute mixed land use indicators on H3 hexagonal grids for Brazilian cities, using CNEFE address points
+-   compute land-use mix indicators on H3 hexagonal grids for Brazilian cities, using CNEFE address points
 
 ------------------------------------------------------------------------
 
@@ -170,7 +170,7 @@ The output has at least the following columns:
 The file `example.R` contains a more complete workflow:
 
 -   defines a set of large Brazilian cities
--   computes indicators for multiple H3 resolutions (7, 8, 9)
+-   computes indicators for multiple H3 resolutions
 -   optionally downloads arterial streets from OpenStreetMap for each city
 -   produces:
     -   city maps comparing EI, HHI, directional HHI and BGBI
