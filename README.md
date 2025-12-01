@@ -1,4 +1,4 @@
-# Measuring mixed land use with address-level census data
+# Measuring land-use mix with address-level census data
 
 R code to read Brazilian CNEFE municipal files and compute mixed land use indicators from address records on H3 hexagonal grids.
 
