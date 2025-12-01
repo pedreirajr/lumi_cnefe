@@ -236,3 +236,7 @@ compute_lumi <- function(code_muni,
   
   city_indices
 }
+
+## Example: computing land-use mix indicators for Salvador in H3 res. 7:
+## ssa_lumi_r7 <- compute_lumi(lookup_muni(name_muni = "Salvador")$code_muni, h3_resolution = 7)
+

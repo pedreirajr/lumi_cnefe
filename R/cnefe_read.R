@@ -112,8 +112,12 @@ read_cnefe <- function(code_muni,
   tab
 }
 
+## Reading cnefe_index
+### ((after computing it with build_cnefe_index_2022() and saving it as cnefe_index_2022.rds)
+cnefe_index_2022 <- readRDS("cnefe_index_2022.rds")
+
 ## Examples:
 ## cnefe_ssa <- read_cnefe(lookup_muni(name_muni = "Salvador")$code_muni, cache = TRUE)
 ## cnefe_spo <- read_cnefe(lookup_muni(name_muni = "São Paulo")$code_muni, cache = TRUE)
 ## cnefe_rdj <- read_cnefe(lookup_muni(name_muni = "Rio de Janeiro")$code_muni, cache = TRUE)
-## etc.
+
