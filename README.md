@@ -18,8 +18,6 @@ This project provides a reproducible workflow to:
 
 ## Repository contents
 
-Typical structure:
-
 -   `R/`
     -   `build_cnefe_index_2022.R` – builds a spatial index of all Brazilian municipalities with:
         -   state and municipality identifiers
